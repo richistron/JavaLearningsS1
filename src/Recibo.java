@@ -3,15 +3,15 @@ public class Recibo {
     private final Double CantidadPago;
     private final String ConceptoPago;
 
-    public Recibo(String nombre, Double cantidad, String concepto) {
+    public Recibo(String nombre, Double Cantidad, String concepto) {
         Nombre = nombre;
         ConceptoPago = concepto;
-        CantidadPago = cantidad;
+        CantidadPago = Cantidad;
     }
 
     public void ImprimirDatos() {
-        System.out.printf("el nombre es: %s%n", this.Nombre);
-        System.out.printf("el concepto es: %s%n", this.ConceptoPago);
-        System.out.printf("la cantidad es: %s%n", this.CantidadPago);
+        System.out.printf("el nombre es: %s%n", Nombre);
+        System.out.printf("el concepto es: %s%n", ConceptoPago);
+        System.out.printf("la cantidad es: %s%n", CantidadPago);
     }
 }

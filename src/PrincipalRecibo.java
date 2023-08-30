@@ -10,7 +10,7 @@ public class PrincipalRecibo {
 
     public void ImprimirDatos() {
         for (int i = 0; i < this.recibos.size(); i++) {
-            System.out.printf("El recibo número %s es:%n", i);
+            System.out.printf("El recibo número %s%n", i);
             this.recibos.get(i).ImprimirDatos();
         }
     }
