@@ -1,9 +1,9 @@
 public class Recibo {
-    String ConceptoDePago;
+    String ConceptoPago;
     Double CantidadPago;
 
-    public Recibo(Double cantidad, String concepto){
-        ConceptoDePago = concepto;
+    public Recibo(Double cantidad, String concepto) {
+        ConceptoPago = concepto;
         CantidadPago = cantidad;
     }
 }
